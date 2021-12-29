@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+html {
+  height: 100%;
+  
+}
+p{
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+}
+body {
+  min-height: 100%;
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-rows: auto auto auto;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
+  text-align: center;
+  background: DarkSalmon;
+  color: white;
+  font-size: 30px;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+div{
+ grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
